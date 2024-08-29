@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shop</title>
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- font-awesome -->
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <!-- SWIPER SLIDER CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js">
+    </head>
+
+  <body>
+    <!-- navbar -->
+    <nav>
+        <div class="logo">
+            <a href="index.html"> <img src="img/store-logoo.png" alt="" /></a>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="icons_sec">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="contact.html"><i class="fa-regular fa-user"></i></a>
+            <i class="fa-regular fa-heart"><span>0</span></i>
+
+            <div class="cart_menu">
+            <i class="fa-solid fa-cart-shopping shop-cart">
+                <span id="cart_count">5</span></i>
+            
+            </div>
+
+            <h3>₹6,195.00</h3>
+        </div>
+
+            <div class="bars">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="card-container">
+            <div class="cart-heading">
+                <i class="fa-solid fa-xmark close_cart"></i>
+                <h1>Shopping Cart</h1>
+            </div>
+            <div class="cartInProduct">
+                <!-- PRODUCT CART 1 -->
+                <div class="Pcart1">
+                    <img src="img/product5.png" alt="">
+                    <div class="cart-details">
+                        <h2>Bag</h2>
+                        <p>₹849.00</p>
+                    </div>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+                <!-- PRODUCT CART 2 -->
+                <div class="Pcart1">
+                    <img src="img/trouser-cart.jpg" alt="">
+                    <div class="cart-details">
+                        <h2>Trouser For Men's</h2>
+                        <p>₹499.00</p>
+                    </div>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+                <!-- PRODUCT CART 3 -->
+                <div class="Pcart1">
+                    <img src="img/watch-cart.jpg" alt="">
+                    <div class="cart-details">
+                        <h2>Men's Watch</h2>
+                        <p>₹2,449.00</p>
+                    </div>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+                <!-- PRODUCT CART 4 -->
+                <div class="Pcart1">
+                    <img src="img/shirt-cart.jpg" alt="">
+                    <div class="cart-details">
+                        <h2>Black Shirt</h2>
+                        <p>₹899.00</p>
+                    </div>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+                <!-- PRODUCT CART 5 -->
+                <div class="Pcart1">
+                    <img src="img/shoe-cart.png" alt="">
+                    <div class="cart-details">
+                        <h2>Walking Shoes</h2>
+                        <p>₹1,449.00</p>
+                    </div>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="big-metro-site-container">
+        <header>
+            <div class="contain-about">
+                <h1 class="main-header-text">Shop</h1>
+                <div class="our-site-link">
+                    <a href="index.html">Home</a>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <p>Shop</p>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- SHOP CONTAINER -->
+    <div class="shop-container">
+        <div class="shop-product-container">
+            <div class="shop-header-contain">
+                <h3>Showing 1 - 9 of 103 results</h3>
+                <div class="shop-filter">
+                    <select name="Latest" id="shop-filter-select">
+                        <option value="Latest">Latest</option>
+                        <option value="Latest">Popular</option>
+                        <option value="Latest">Average Rating</option>
+                        <option value="Latest">Price:low to high</option>
+                        <option value="Latest">Price:high to low</option>
+                    </select>
+                    <i class="fa-solid fa-table-cells-large"></i>
+                    <div class="shop-bars">
+                        <i class="fa-solid fa-list"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="shop-product">
+                <!-- Product 1 -->
+                <div class="product mix category-a" data-order="1">
+                    <div class="product-img">
+                        <a href="product.html">
+                            <img src="img/shirt1.webp" alt="">
+                            <span>-86%</span>
+                        </a>
+                    </div>
+                    <p class="shop-product-price">kalyan demo name</p>
+                    <p class="shop-product-price"><strike>₹74.00</strike> <span class="price">₹10.00</span> </p>
+                    <div class="shop-product-icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-cart-plus" id="add-cart"></i>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product mix category-b" data-order="1">
+                    <div class="product-img">
+                        <a href="product.html">
+                            <img src="img/shirt2.webp" alt="">
+                            <span>-86%</span>
+                        </a>
+                    </div>
+                    <p class="shop-product-price">kalyan demo name</p>
+                    <p class="shop-product-price"><strike>₹74.00</strike> <span class="price">₹10.00</span> </p>
+                    <div class="shop-product-icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-cart-plus" id="add-cart"></i>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product mix category-c" data-order="1">
+                    <div class="product-img">
+                        <a href="product.html">
+                            <img src="img/shirt3.webp" alt="">
+                            <span>-86%</span>
+                        </a>
+                    </div>
+                    <p class="shop-product-price">kalyan demo name</p>
+                    <p class="shop-product-price"><strike>₹74.00</strike> <span class="price">₹10.00</span> </p>
+                    <div class="shop-product-icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-cart-plus" id="add-cart"></i>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="product mix category-d" data-order="1">
+                    <div class="product-img">
+                        <a href="product.html">
+                            <img src="img/shirt4.webp" alt="">
+                            <span>-86%</span>
+                        </a>
+                    </div>
+                    <p class="shop-product-price">kalyan demo name</p>
+                    <p class="shop-product-price"><strike>₹74.00</strike> <span class="price">₹10.00</span> </p>
+                    <div class="shop-product-icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-cart-plus" id="add-cart"></i>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="product mix category-a" data-order="1">
+                    <div class="product-img">
+                        <a href="product.html">
+                            <img src="img/shirt5.webp" alt="">
+                            <span>-86%</span>
+                        </a>
+                    </div>
+                    <p class="shop-product-price">kalyan demo name</p>
+                    <p class="shop-product-price"><strike>₹74.00</strike> <span class="price">₹10.00</span> </p>
+                    <div class="shop-product-icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-cart-plus" id="add-cart"></i>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="product mix category-b" data-order="1">
+                    <div class="product-img">
+                        <a href="product.html">
+                            <img src="img/shirt6.webp" alt="">
+                            <span>-86%</span>
+                        </a>
+                    </div>
+                    <p class="shop-product-price">kalyan demo name</p>
+                    <p class="shop-product-price"><strike>₹74.00</strike> <span class="price">₹10.00</span> </p>
+                    <div class="shop-product-icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-cart-plus" id="add-cart"></i>
+                    </div>
+                </div>
+                <!-- Product 7 -->
+                <div class="product mix category-c" data-order="1">
+                    <div class="product-img">
+                        <a href="product.html">
+                            <img src="img/shirt7.webp" alt="">
+                            <span>-86%</span>
+                        </a>
+                    </div>
+                    <p class="shop-product-price">kalyan demo name</p>
+                    <p class="shop-product-price"><strike>₹74.00</strike> <span class="price">₹10.00</span> </p>
+                    <div class="shop-product-icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-cart-plus" id="add-cart"></i>
+                    </div>
+                </div>
+                <!-- Product 8 -->
+                <div class="product mix category-d" data-order="1">
+                    <div class="product-img">
+                        <a href="product.html">
+                            <img src="img/shirt8.webp" alt="">
+                            <span>-86%</span>
+                        </a>
+                    </div>
+                    <p class="shop-product-price">kalyan demo name</p>
+                    <p class="shop-product-price"><strike>₹74.00</strike> <span class="price">₹10.00</span> </p>
+                    <div class="shop-product-icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-cart-plus" id="add-cart"></i>
+                    </div>
+                </div>
+                <!-- Product 9 -->
+                <div class="product mix category-a" data-order="1">
+                    <div class="product-img">
+                        <a href="product.html">
+                            <img src="img/shirt9.webp" alt="">
+                            <span>-86%</span>
+                        </a>
+                    </div>
+                    <p class="shop-product-price">kalyan demo name</p>
+                    <p class="shop-product-price"><strike>₹74.00</strike> <span class="price">₹10.00</span> </p>
+                    <div class="shop-product-icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-cart-plus" id="add-cart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shop-menu">
+            <div class="shop-menu-heading">
+                <h1>Categories</h1> 
+            </div>
+
+            <div class="shop-menu-category">
+                <h2 class="shop-menu-link" data-filter=".category-a">Accessories <span>(8)</span></h2>
+                <h2 class="shop-menu-link" data-filter="all">All Filter <span>(8)</span></h2>
+                <h2 class="shop-menu-link" data-filter=".category-b">Body Engine <span>(8)</span></h2>
+                <h2 class="shop-menu-link" data-filter=".category-c">Break Part <span>(8)</span></h2>
+                <h2 class="shop-menu-link" data-filter=".category-d">Computer <span>(8)</span></h2>
+                <h2 class="shop-menu-link" data-filter=".category-a">Custmetics <span>(8)</span></h2>
+                <h2 class="shop-menu-link" data-filter=".category-b">Electronics <span>(8)</span></h2>
+                <h2 class="shop-menu-link" data-filter=".category-c">Frame Sunglasses <span>(8)</span></h2>
+                <h2 class="shop-menu-link" data-filter=".category-d">Furniture <span>(8)</span></h2>
+
+                <div class="category-color-container">
+                    <h1>Color</h1>
+                    <div class="color-category">
+                        <div class="category-color">
+                            <div class="category-color-pic1"></div>
+                        </div>
+                        <div class="category-color">
+                            <div class="category-color-pic2"></div>
+                        </div>
+                        <div class="category-color">
+                            <div class="category-color-pic3"></div>
+                        </div>
+                        <div class="category-color">
+                            <div class="category-color-pic4"></div>
+                        </div>
+                        <div class="category-color">
+                            <div class="category-color-pic5"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-size">
+                    <h1>Size</h1>
+                    <div class="color-category">
+                        <div class="Psize">
+                            <div class="sizeL">L</div>
+                        </div>
+                        <div class="Psize">
+                            <div class="sizeL">M</div>
+                        </div>
+                        <div class="Psize">
+                            <div class="sizeL">S</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="hero-footer">
+            <div class="address">
+                <img src="img/light-logoo.png" alt="">
+
+                <div class="info">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>KPHB Phase1, Hyderabad, Telangana, India, 500085</h3>
+                </div>
+                <div class="info">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>+91 630322290*</h3>
+                </div>
+                <div class="info">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>kalyanmekala018@gmail.com</h3>
+                </div>
+            </div>
+
+            <div class="information">
+                <h1>My Account</h1>
+
+                <a href="#">My Accounts</a>
+                <a href="#">Login/Register</a>
+                <a href="#">Cart</a>
+                <a href="#">Order history</a>
+            </div>
+
+            <div class="information">
+                <h1>information</h1>
+
+                <a href="#">About Us</a>
+                <a href="#">Latest Posts</a>
+                <a href="#">Selling Tips</a>
+                <a href="#">Advertising</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="information">
+                <h1>Help & Support</h1>
+
+                <a href="#">How to shop</a>
+                <a href="#">Payments</a>
+                <a href="#">Returns</a>
+                <a href="#">Delivery</a>
+                <a href="#">Privacy & Cookie Policy</a>
+            </div>
+        </div>
+
+        <div class="last-section line">
+            <h3>©Copyrights K store 2024, by <span>Kalyan</span></h3>
+            <div class="icons">
+                <a href="https://www.google.com/"><i class="fa-brands fa-facebook"></i></a>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            
+            <div class="icons">
+                <img src="img/payment1.png" alt="">
+                <img src="img/payment2.png" alt="">
+                <img src="img/payment3.png" alt="">
+                <img src="img/payment4.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mixitup JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
+    
